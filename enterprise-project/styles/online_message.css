@@ -1,0 +1,112 @@
+/* 在线留言主体内容 */
+/* 菜单栏 */
+#oneline_message .menu{
+    width: 250px;
+    height: 500px;
+    position: relative;
+    top: -32px;
+    left: 0;
+    margin-right: 79px;
+}
+#oneline_message .menu h3{
+    height: 32px;
+    font-size: 20px;
+    color: #fff;
+    padding:20px 0 28px; 
+    background-color: #0077ed;
+}
+#oneline_message .menu h3>p{
+    font-size: 10px;
+    font-weight: normal;
+}
+#oneline_message .menu ul li a{   
+    display: inline-block;
+    width: 250px;
+    height: 39px;
+    color: #232220;
+    line-height: 39px;
+    background-color: #efefef;
+    border-bottom: 1px solid #cecece;
+}
+#oneline_message .menu ul li a:hover{
+    background-color: #0077ed;
+    color: #fff;
+}
+/* 内容 */
+#oneline_message .message_box{
+    width: 871px;
+}
+
+#oneline_message .message_box .nav{
+    height: 38px;
+    border: 1px solid #dddddd;
+    margin: 10px 0;
+    line-height: 36px;
+    text-indent: 10px;
+}
+/* 留言框 */
+#oneline_message .message_box .message{
+    width: 871px;
+    border: 1px solid #dddddd;
+}
+#oneline_message .message_box .message .service{
+    width: 400px;
+    height: 596px;
+    margin-left: 10px;
+    margin-right: 56px;
+}
+#oneline_message .message .service p{
+    margin: 20px 0 10px;
+    color: #5c5d4f;
+}
+#oneline_message .message .service input{
+    width: 400px;
+    height: 40px;
+    border: none;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+}
+#oneline_message .message .service textarea{
+    width: 400px;
+    height: 132px;
+    border: none;
+    background-color: #f2f2f2;
+}
+#oneline_message .message .service .btn{
+    background-color: #0077ed;
+    color: #fff; 
+    margin-top: 10px; 
+}
+/* 留言须知 */
+#oneline_message .message .advert{
+    margin-top: 62px;
+    line-height: 23px;
+    color: #8d8382;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

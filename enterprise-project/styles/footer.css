@@ -1,0 +1,85 @@
+/* 页脚 */
+#footer{
+    height: 302px;
+    margin-top: 34px; 
+    background-color: #f5f5f5;
+}
+#footer .footerbox{
+    height: 184px;
+    padding: 40px 0 19px;
+    border-bottom: 1px solid #dcdcdc;
+}
+/* 列表1 */
+#footer .footerbox .listone{
+    width: 140px;
+    height: 181px;
+    border-right: 1px solid #dcdcdc;
+}
+#footer .footerbox .listone h3,
+.listtwo h3,
+.listthree h3,
+.listfour h3,
+.twocode h3{
+    line-height: 30px;
+}
+
+#footer .footerbox .listone a,
+.listtwo a,
+.listthree a{
+    display: inline-block;
+    color: #898788;
+    line-height: 24px;
+}
+#footer .footerbox a:hover{
+    color: #0077ed;
+}
+/* 列表2,3 */
+#footer .footerbox .listtwo,.listthree{
+    width: 166px;
+    height: 181px;
+    margin-left: 49px; 
+    border-right: 1px solid #dcdcdc;
+}
+/* 列表4 */
+#footer .footerbox .listfour{
+    width: 321px;
+    height: 181px;
+    margin-left: 50px;
+    border-right: 1px solid #dcdcdc;
+}
+#footer .footerbox .listfour p{
+    font-size: 12px;
+    color: #898788;
+    line-height: 24px; 
+}
+#footer .footerbox .listfour p>span{
+    color: #f40b07;
+}
+/* 列表5-二维码 */
+#footer .footerbox .twocode{
+    height: 181px;
+    margin-left: 35px;
+}
+#footer .footerbox .twocode .ewm{
+    margin-top: 5px; 
+    margin-right:18px; 
+}
+#footer .footerbox .twocode img{
+    width: 90px;
+}
+#footer .footerbox .twocode p{
+    line-height: 24px;
+}
+/* 版权信息 */
+#footer .copyright{
+    line-height: 40px;
+}
+#footer .copyright .icon_bq{
+    display: inline-block;
+    width: 11px;
+    height: 12px;
+    vertical-align: -2px;
+    margin-right: 4px; 
+    background: url('../images/bq.png') no-repeat;
+}
+

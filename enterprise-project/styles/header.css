@@ -1,0 +1,163 @@
+/* 首页样式 */
+/* 头部样式 */
+#header .msg{
+    height: 40px;
+    line-height: 40px;  
+    border-bottom: 1px solid #e6e6e6;  
+}
+#header .msg .icon{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url('../images/tb_01.png') no-repeat;   
+    vertical-align: -3px;
+}
+
+/* 头部-logo部分 */
+#header .logo-search{
+    height: 100px;
+}
+#header .logo-search .logo{
+    width: 357px;
+    padding: 24px 0;
+    line-height: 10px;
+    margin-right: 102px;
+}
+#header .logo-search .logo img{
+    width: 55px;
+    height: 50px;
+    margin-right: 14px;
+}
+#header .logo-search .logo h1{
+    font-size: 24px;
+    line-height: 32px;
+}
+/* 头部-搜索栏部分 */
+#header .logo-search .search{
+    width: 400px;
+    height: 36px;
+    border: 2px solid #0077ed;
+    margin-top: 27px;
+    margin-right: 165px;
+}
+#header .logo-search .search .text{
+    width: 320px;
+    height: 36px;
+    border: none;
+    text-indent: 5px;
+}
+#header .logo-search .search .text:focus{
+    outline: none;
+}
+#header .logo-search .search .btn{
+    border: none;
+    padding: 10px 28px;
+    color: #fff;
+    background-color: #0077ed;
+}
+/* 热线 */
+#header .logo-search .hotline{
+    width: 170px;
+    height: 42px;
+    /* border: 1px solid; */
+    margin-top: 25px;
+    text-align: right;
+}
+#header .logo-search .hotline .icon_tel{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url('../images/tel.png') no-repeat;
+    vertical-align: -6px;
+}
+#header .logo-search .hotline>p{
+    font-size: 20px;
+    font-weight: bold;
+} 
+/* 导航栏 */
+#header .nav{
+    height: 50px;
+    background-color: #0972df;
+    /* background-color: rgba(9, 114, 223,.8); */
+}
+#header .nav .navDate{
+    margin-left: 10px;
+}
+#header .nav .navDate .active>a{
+    background-color: #0059b3;
+}
+#header .nav .navDate>li{
+    float: left;
+    position: relative;
+}
+#header .nav .navDate>li>a{
+    display: inline-block;
+    width: 161px;
+    height: 50px;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    background-color: #0871de;
+}
+#header .nav .navDate li a:hover{
+    background-color: rgba(0, 0, 0, .2);
+}
+/* 子菜单 */
+.submenu{
+    width: 100%;
+    position: absolute;
+    display: none;
+}
+#header .navDate li>.submenu li a{ 
+    display: block;
+    width: 160px;
+    height: 50px;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+}
+.submenu li a:hover{
+    background-color: rgba(0, 0, 0,.5);
+}
+#header .nav .navDate li:hover .submenu{
+    display: block;
+}
+/* 头部样式结束 */
+
+/* banner图 */
+#banner{
+    height: 450px;   
+    background: url('../images/banner_01.jpg') no-repeat;
+}
+#banner .bannertext{
+    width: 600px;
+    height: 196px; 
+    margin: 0 auto;
+    padding-top: 10px;
+    text-align: center;  
+}
+#banner .bannertext>h1{
+    font-size: 45px;
+    color: #fff;
+    padding-top: 104px; 
+    margin-bottom: 27px; 
+}
+#banner .bannertext .banner_tu{
+    height: 120px;
+    /* position: relative; */
+    background: url('../images/banner_tu.png') no-repeat;
+}
+#banner .bannertext .banner_tu span{
+    display: inline-block;
+    color: #dcdcdc;
+    position: relative;
+    top: -6px;
+    left: 2px;
+}
+#banner .bannertext .banner_tu p{
+    line-height: 29px;
+    color: #fff;
+}
+#banner .bannertext .banner_tu>.font18{
+    font-size: 18px;
+}

@@ -1,0 +1,89 @@
+/* 详情内容 */
+/* 菜单栏 */
+#new_detail .menu{
+    width: 250px;
+    height: 380px;
+    position: relative;
+    top: -32px;
+    left: 0;
+    margin-right: 79px;
+}
+#new_detail .menu h3{
+    height: 32px;
+    font-size: 20px;
+    color: #fff;
+    padding:20px 0 28px; 
+    background-color: #0077ed;
+}
+#new_detail .menu h3>p{
+    font-size: 10px;
+    font-weight: normal;
+}
+#new_detail .menu ul li a{   
+    display: inline-block;
+    width: 250px;
+    height: 39px;
+    color: #232220;
+    line-height: 39px;
+    background-color: #efefef;
+    border-bottom: 1px solid #cecece;
+}
+#new_detail .menu ul li a:hover{
+    background-color: #0077ed;
+    color: #fff;
+}
+/* 详情 */
+#new_detail .detail,.detail .content{
+    width: 850px;
+    padding: 18px 10px 0;
+}
+#new_detail .detail .nav{
+    width: 870px;
+    height: 38px;
+    border: 1px solid #dddddd;
+    margin: 10px 0;
+    line-height: 36px;
+    text-indent: 10px;
+}
+#new_detail .detail .content{
+    border: 1px solid #ddd;
+}
+#new_detail .detail .content>span{
+    line-height: 50px;
+}
+#new_detail .detail .content .brief{
+    height: 30px;
+    line-height: 30px;
+    text-indent: 23px;
+    background: #f5f5f5;
+    margin-bottom: 21px; 
+    border: 1px solid #e5e5e5;   
+}
+#new_detail .detail .content>p{
+    color: #4b5c66;
+    line-height: 22px;
+}
+#new_detail .detail .content .msg{
+    line-height: 26px;
+    margin: 16px 0 11px;
+}
+#new_detail .detail .content .icon_top,.icon_bottom{
+    display: inline-block;
+    width: 14px;
+    height: 13px;
+    vertical-align: middle;
+}
+#new_detail .detail .content .icon_top{
+    background-image: url('../images/top.png');
+}
+#new_detail .detail .content .icon_bottom{
+    background-image: url('../images/bottom.png');
+}
+
+
+
+
+
+
+
+

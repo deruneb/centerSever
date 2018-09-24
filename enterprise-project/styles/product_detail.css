@@ -1,0 +1,104 @@
+/* 产品详情内容 */
+/* 菜单栏 */
+#product_detail .menu{
+    width: 250px;
+    height: 500px;
+    position: relative;
+    top: -32px;
+    left: 0;
+    margin-right: 61px;
+}
+#product_detail .menu h3{
+    height: 32px;
+    font-size: 20px;
+    color: #fff;
+    padding:20px 0 28px; 
+    background-color: #0077ed;
+}
+#product_detail .menu h3>p{
+    font-size: 10px;
+    font-weight: normal;
+}
+#product_detail .menu ul li a{   
+    display: inline-block;
+    width: 250px;
+    height: 39px;
+    color: #232220;
+    line-height: 39px;
+    background-color: #efefef;
+    border-bottom: 1px solid #cecece;
+}
+#product_detail .menu ul li>.current{
+    background-color: #0077ed;
+    color: #fff;
+}
+#product_detail .menu ul li a:hover{
+    background-color: #0077ed;
+    color: #fff;
+}
+/* 产品信息 */
+#product_detail .product{
+    width: 866px;  
+}
+#product_detail .product .nav{
+    width: 886px;  
+    height: 38px;
+    border: 1px solid #dddddd;
+    margin: 10px 0;
+    line-height: 36px;
+    text-indent: 10px;
+}
+#product_detail .product .detail{
+    width: 866px;
+    padding:0 10px;
+    border: 1px solid #cecece;
+}
+/* 标题 */
+#product_detail .product .detail .tit{
+    line-height: 25px;
+    margin-top: 16px; 
+}
+#product_detail .product .detail .brief{
+    padding:8px 8px;
+    border: 1px solid #cecece;
+    background: #f5f5f5;
+}
+#product_detail .product .detail .productimg{
+    margin-left: 340px;
+    margin-top: 91px; 
+}
+/* 静态轮播 */
+#product_detail .product .detail .carousel{
+    margin-top: 71px;
+    width: 300px;
+    height: 70px; 
+    /* border: 1px solid #ccc; */
+    margin-bottom: 37px; 
+}
+#product_detail .product .detail .carousel li{
+    float: left;
+}
+#product_detail .product .detail .carousel .img>img{
+    width: 62px; 
+    margin:5px 190px 0px 2px;  
+}
+/* 简介 */
+#product_detail .product .detail .blurb{
+    margin-left: 13px;
+}
+#product_detail .product .detail .blurb :first-child{
+    margin-left: -13px; 
+}
+#product_detail .product .detail .blurb :last-child{
+    margin-bottom: 23px;
+}
+/* 范围 */
+#product_detail .product .detail .bound{
+    margin-left: 13px;
+    margin-bottom: 23px;
+}
+#product_detail .product .detail .msg{
+    line-height: 26px;
+    margin-bottom: 10px; 
+}
+

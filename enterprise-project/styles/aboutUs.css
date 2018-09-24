@@ -1,0 +1,117 @@
+/* 中心内容 */
+/* 菜单栏 */
+#content .menu{
+    width: 250px;
+    height: 500px;
+    position: relative;
+    top: -32px;
+    left: 0;
+    margin-right: 65px;
+}
+#content .menu h3{
+    height: 32px;
+    font-size: 20px;
+    color: #fff;
+    padding:20px 0 28px; 
+    background-color: #0077ed;
+}
+#content .menu h3>p{
+    font-size: 10px;
+    font-weight: normal;
+}
+#content .menu ul li a{   
+    display: inline-block;
+    width: 250px;
+    height: 39px;
+    color: #232220;
+    line-height: 39px;
+    background-color: #efefef;
+    border-bottom: 1px solid #cecece;
+}
+#content .menu ul li>.current{
+    background-color: #0077ed;
+    color: #fff;
+}
+#content .menu ul li a:hover{
+    background-color: #0077ed;
+    color: #fff;
+}
+/* 关于我们详情内容 */
+#content .detail{
+    width: 885px;
+    height: 665px;
+    margin-bottom: 30px;
+    /* border: 1px solid; */
+}
+#content .detail .nav{
+    height: 38px;
+    border: 1px solid #dddddd;
+    margin: 10px 0;
+    line-height: 36px;
+    text-indent: 10px;
+}
+#content .detail .referral{
+    height: 373px;
+    text-align: justify; 
+    border: 1px solid #dddddd;
+}
+#content .detail .referral p{
+    color: #5d576f;
+    line-height: 25px;
+    margin: 8px 10px 0 10px; 
+}
+#content .detail .imgbox{
+    height: 198px;
+    margin-top: 10px;
+    border: 1px solid #dddddd;
+}
+#content .detail .imgbox img{
+    margin: 10px 21px 10px 0;
+    width: 232px;
+    height: 178px;
+    vertical-align: middle;
+}
+#content .detail .imgbox :first-child{
+    width: 128px;
+    height: 178px;
+    margin-left: 10px; 
+}
+#content .detail .imgbox :last-child{
+    width: 207px;
+    height: 178px;
+    margin-right: 0; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

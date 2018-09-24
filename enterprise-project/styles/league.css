@@ -1,0 +1,73 @@
+/* 招商加盟主体内容 */
+/* 菜单栏 */
+#league_info .menu{
+    width: 250px;
+    height: 500px;
+    position: relative;
+    top: -32px;
+    left: 0;
+    margin-right: 79px;
+}
+#league_info .menu h3{
+    height: 32px;
+    font-size: 20px;
+    color: #fff;
+    padding:20px 0 28px; 
+    background-color: #0077ed;
+}
+#league_info .menu h3>p{
+    font-size: 10px;
+    font-weight: normal;
+}
+#league_info .menu ul li a{   
+    display: inline-block;
+    width: 250px;
+    height: 39px;
+     color: #232220;
+    line-height: 39px;
+    background-color: #efefef;
+    border-bottom: 1px solid #cecece;
+}
+#league_info .menu ul li a:hover{
+    background-color: #0077ed;
+    color: #fff;
+}
+/* 加盟信息 */
+#league_info .message{
+    width: 871px;
+}
+
+#league_info .message .nav{
+    height: 38px;
+    border: 1px solid #dddddd;
+    margin: 10px 0;
+    line-height: 36px;
+    text-indent: 10px;
+}
+#league_info .message .content{
+    width: 871px;
+    border: 1px solid #ddd;
+}
+#league_info .message .content p{
+    margin: 10px;
+    line-height: 25px;
+    color: #495d5e;
+    margin-bottom: 10px; 
+}
+#league_info .message .content :last-child{
+    margin-bottom: 20px;
+}
+#league_info .message .content span{
+    font-weight: bold;
+    color: #ef1722;
+}
+
+
+
+
+
+
+
+
+
+

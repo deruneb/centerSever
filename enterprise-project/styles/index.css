@@ -1,0 +1,469 @@
+/* 公用样式 */
+/* 版心 */
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+/* 浮动 */
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+/* 清浮动 */
+.clear{
+    clear: both;
+}
+.clearfix:after{
+    height:0;
+    display: block;
+    content: '';
+    clear: both;
+}
+/* 字体 */
+.font{
+    font-size: 12px;
+    color: #898788;
+}
+/* 字体16 */
+.font16{
+    font-size: 16px;
+}
+/* 字体颜色 */
+.fontblack{
+    color: #232220;
+}
+/* 外边距 */
+.marginC{
+    margin: 0 auto;
+}
+/* 文本居中 */
+.textcenter{
+    text-align: center;
+}
+/* 文本加粗 */
+.fontbold{
+    font-weight: bold;
+}
+/* 标题 */
+.title{
+    height: 94px;
+    text-align: center;
+}
+.h3{  
+    margin-top: 60px;
+    color: #e3190f;
+    font-weight: bold;
+    font-size: 20px;
+}
+.span{
+    font-size: 18px;
+    font-weight: bold;
+    color: #1f241e;
+}
+
+
+
+/* 首页样式 */
+/* 头部样式 */
+#header .msg{
+    height: 40px;
+    line-height: 40px;  
+    border-bottom: 1px solid #e6e6e6;  
+}
+#header .msg .icon{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url('../images/tb_01.png') no-repeat;   
+    vertical-align: -3px;
+}
+
+/* 头部-logo部分 */
+#header .logo-search{
+    height: 100px;
+}
+#header .logo-search .logo{
+    width: 357px;
+    padding: 24px 0;
+    line-height: 10px;
+    margin-right: 102px;
+}
+#header .logo-search .logo img{
+    width: 55px;
+    height: 50px;
+    margin-right: 14px;
+}
+#header .logo-search .logo h1{
+    font-size: 24px;
+    line-height: 32px;
+}
+/* 头部-搜索栏部分 */
+#header .logo-search .search{
+    width: 400px;
+    height: 36px;
+    border: 2px solid #0077ed;
+    margin-top: 27px;
+    margin-right: 165px;
+}
+#header .logo-search .search .text{
+    width: 320px;
+    height: 36px;
+    border: none;
+    text-indent: 5px;
+}
+#header .logo-search .search .text:focus{
+    outline: none;
+}
+#header .logo-search .search .btn{
+    border: none;
+    padding: 10px 28px;
+    color: #fff;
+    background-color: #0077ed;
+}
+/* 热线 */
+#header .logo-search .hotline{
+    width: 170px;
+    height: 42px;
+    /* border: 1px solid; */
+    margin-top: 25px;
+    text-align: right;
+}
+#header .logo-search .hotline>span{
+    margin-left:53px; 
+}
+#header .logo-search .hotline .icon_tel{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url('../images/tel.png') no-repeat;
+    vertical-align: -6px;
+}
+#header .logo-search .hotline>p{
+    font-size: 20px;
+    font-weight: bold;
+} 
+/* 导航栏 */
+#header .nav{
+    height: 50px;
+    background-color: #0972df;
+    /* background-color: rgba(9, 114, 223,.8); */
+}
+#header .nav .navDate{
+    margin-left: 10px;
+}
+#header .nav .navDate .active>a{
+    background-color: #0059b3;
+}
+#header .nav .navDate>li{
+    float: left;
+    position: relative;
+}
+#header .nav .navDate>li>a{
+    display: inline-block;
+    width: 161px;
+    height: 50px;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    background-color: #0871de;
+}
+#header .nav .navDate li a:hover{
+    background-color: rgba(0, 0, 0, .2);
+}
+/* 子菜单 */
+.submenu{
+    width: 100%;
+    position: absolute;
+    display: none;
+}
+#header .navDate li>.submenu li a{ 
+    display: block;
+    width: 160px;
+    height: 50px;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+}
+.submenu li a:hover{
+    background-color: rgba(0, 0, 0,.5);
+}
+#header .nav .navDate li:hover .submenu{
+    display: block;
+}
+/* 头部样式结束 */
+
+/* banner图 */
+#banner{
+    height: 450px;   
+    background: url('../images/banner_01.jpg') no-repeat;
+}
+#banner .bannertext{
+    width: 600px;
+    height: 196px; 
+    margin: 0 auto;
+    padding-top: 10px;
+    text-align: center;  
+}
+#banner .bannertext>h1{
+    font-size: 45px;
+    color: #fff;
+    padding-top: 104px; 
+    margin-bottom: 27px; 
+}
+#banner .bannertext .banner_tu{
+    height: 120px;
+    /* position: relative; */
+    background: url('../images/banner_tu.png') no-repeat;
+}
+#banner .bannertext .banner_tu span{
+    display: inline-block;
+    color: #dcdcdc;
+    position: relative;
+    top: -6px;
+    left: 2px;
+}
+#banner .bannertext .banner_tu p{
+    line-height: 29px;
+    color: #fff;
+}
+#banner .bannertext .banner_tu>.font18{
+    font-size: 18px;
+}
+
+
+
+/* 关于我们 */
+#aboutUs .content{
+    height: 302px;
+}
+#aboutUs .content img{
+    margin-right: 48px;
+}
+#aboutUs .content .innerbox{
+    width: 646px;
+    height: 300px;
+    /* border: 1px solid; */
+}
+#aboutUs .content .innerbox>p{
+    font-size: 13px;
+    color: #58595b;
+    text-indent: 2em;
+    line-height: 27px;
+    text-align: justify;
+    margin-top: 11px;
+}
+
+/* 我们的服务 */
+#ourServices .imgbox{
+    height: 332px;
+    /* border: 1px solid #ccc; */
+}
+#ourServices .imgbox li{
+    float: left;
+    width: 200px;
+    height: 332px;  
+    position: relative;
+}
+#ourServices .imgbox li p{
+    line-height: 32px;
+    color: #fff;
+    background-color: #0077ed;
+}
+#ourServices .imgbox li .mb{
+    display: none;
+    width: 100%;
+    height: 100%;
+    font-size: 13px;
+    color: #cfe9ff;
+    line-height: 332px;
+    background-color: rgba(51, 146, 240,.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#ourServices .imgbox li:hover .mb{
+    display: block;
+}
+/* 最新产品 */
+#newproduct .product{
+    height: 291px;
+}
+#newproduct .product li{
+    width: 223px;
+    height: 291px;
+    margin-right: 17px;
+    float: left;
+    position: relative;   
+}
+#newproduct .product li img{
+    width: 222px;
+    height: 222px;
+}
+#newproduct .product li p{
+    font-size: 13px;
+    color: #2a2a2c;
+    line-height: 40px;
+    font-weight: bold; 
+}
+#newproduct .product .txt{
+    margin-left: 5px; 
+}
+#newproduct .product li .mb{
+    display: none;
+    width: 222px;
+    height: 222px;
+    font-size: 13px;
+    color: #cfe9ff;
+    line-height: 222px;
+    background-color: rgba(51, 146, 240,.5);
+    position: absolute;
+    top: 0;
+    left: 0; 
+}
+#newproduct .product li:hover .mb{
+    display: block;
+}
+/* 新闻动态 */
+/* 新闻列表 */
+#news .newlist .txtlist{
+    width: 605px;
+    height: 326px;
+    margin-right: 48px;
+    /* border: 1px solid #ccc; */
+}
+#news .newlist .txtlist li{
+    height: 66px;
+    padding: 22px 0 22px 32px;   
+    border-bottom: 1px solid #e6e6e6;
+}
+#news .newlist .txtlist li .block{
+    width: 60px;
+    height: 60px;
+    color: #fff;
+    text-align: center;
+    margin-right: 20px;
+    background-color: #0077ed;
+}
+#news .newlist .txtlist li .block p{
+    font-size: 24px;
+    line-height: 41px;   
+}
+#news .newlist .txtlist li a{
+    display: inline-block;
+    width: 521px;
+}
+#news .newlist .txtlist li a:hover h3{
+    color: #0077ed;
+}
+#news .newlist .txtlist li a>h3{
+    font-size: 16px;
+    color: #2d1d41;
+    line-height: 32px;
+}
+/* 新闻图片列表 */
+#news .newlist .imglist .list_items{
+    width: 547px;
+    height: 100px;
+    margin-bottom: 20px; 
+}
+#news .newlist .imglist span{
+    display: inline-block;
+    width: 239px;
+    /* height: 101px; */
+    text-align: center;
+    line-height: 100px;
+    color: #2d1d41;
+    background-color: #f5f5f5;
+}
+#news .newlist .imglist img{
+    width: 308px;
+    height: 100px;
+}
+
+/* 页脚 */
+#footer{
+    height: 302px;
+    margin-top: 34px; 
+    background-color: #f5f5f5;
+}
+#footer .footerbox{
+    height: 184px;
+    padding: 40px 0 19px;
+    border-bottom: 1px solid #dcdcdc;
+}
+/* 列表1 */
+#footer .footerbox .listone{
+    width: 140px;
+    height: 181px;
+    border-right: 1px solid #dcdcdc;
+}
+#footer .footerbox .listone h3,
+.listtwo h3,
+.listthree h3,
+.listfour h3,
+.twocode h3{
+    line-height: 30px;
+}
+
+#footer .footerbox .listone a,
+.listtwo a,
+.listthree a{
+    display: inline-block;
+    color: #898788;
+    line-height: 24px;
+}
+#footer .footerbox a:hover{
+    color: #0077ed;
+}
+/* 列表2,3 */
+#footer .footerbox .listtwo,.listthree{
+    width: 166px;
+    height: 181px;
+    margin-left: 49px; 
+    border-right: 1px solid #dcdcdc;
+}
+/* 列表4 */
+#footer .footerbox .listfour{
+    width: 321px;
+    height: 181px;
+    margin-left: 50px;
+    border-right: 1px solid #dcdcdc;
+}
+#footer .footerbox .listfour p{
+    font-size: 12px;
+    color: #898788;
+    line-height: 24px; 
+}
+#footer .footerbox .listfour p>span{
+    color: #f40b07;
+}
+/* 列表5-二维码 */
+#footer .footerbox .twocode{
+    height: 181px;
+    margin-left: 35px;
+}
+#footer .footerbox .twocode .ewm{
+    margin-top: 5px; 
+    margin-right:18px; 
+}
+#footer .footerbox .twocode img{
+    width: 90px;
+}
+#footer .footerbox .twocode p{
+    line-height: 24px;
+}
+/* 版权信息 */
+#footer .copyright{
+    line-height: 40px;
+}
+#footer .copyright .icon_bq{
+    display: inline-block;
+    width: 11px;
+    height: 12px;
+    vertical-align: -2px;
+    margin-right: 4px; 
+    background: url('../images/bq.png') no-repeat;
+}
+

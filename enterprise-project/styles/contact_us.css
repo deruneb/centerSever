@@ -1,0 +1,73 @@
+/* 联系我们主体内容 */
+#contact_us .menu{
+    width: 250px;
+    height: 500px;
+    position: relative;
+    top: -32px;
+    left: 0;
+    margin-right: 79px;
+}
+#contact_us .menu h3{
+    height: 32px;
+    font-size: 20px;
+    color: #fff;
+    padding:20px 0 28px; 
+    background-color: #0077ed;
+}
+#contact_us .menu h3>p{
+    font-size: 10px;
+    font-weight: normal;
+}
+#contact_us .menu ul li a{   
+    display: inline-block;
+    width: 250px;
+    height: 39px;
+    color: #232220;
+    line-height: 39px;
+    background-color: #efefef;
+    border-bottom: 1px solid #cecece;
+}
+#contact_us .menu ul li a:hover{
+    background-color: #0077ed;
+    color: #fff;
+}
+/* 联系我们内容 */
+#contact_us .contact{
+    width: 871px;
+}
+#contact_us .contact .nav{
+    height: 38px;
+    border: 1px solid #dddddd;
+    margin: 10px 0;
+    line-height: 36px;
+    text-indent: 10px;
+}
+/* 地图样式 */
+#contact_us .contact .atlas{
+    height: 310px;
+    border: 1px solid #dddddd;
+}
+#contact_us .contact .atlas img{
+    width: 850px;
+    margin: 10px;
+}
+/* 地址 */
+#contact_us .contact .address{
+    height: 148px;
+    color: #5a5f4b;
+    line-height: 28px;
+    margin-top: 10px;
+    border: 1px solid #dddddd;
+}
+#contact_us .contact .address p{
+    margin-left: 10px;
+    margin-right: 111px;
+    margin-top:10px;   
+}
+
+
+
+
+
+
+
